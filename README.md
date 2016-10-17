@@ -9,3 +9,4 @@ assemble the httpd.asm file and add the httpd file to the container
     tar cv --files-from manifest.txt | docker import - httpd
 
 
+credit for the httpd assembly server goes to https://gist.github.com/xenomuta/4450368
