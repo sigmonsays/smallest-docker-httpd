@@ -2,6 +2,7 @@
 
 A challenge from /r/docker on reddit
 
+This is a 436 byte container which provides a functional HTTP server!
 
 assemble the httpd.asm file and add the httpd file to the container
 
