@@ -66,9 +66,9 @@ _write:
   push edx                  ; push 0 dec onto stack then push a bunch of ascii (http headers & reponse body)
   push dword 0x0a0d3e31     ; [\n][\r]>1
   push dword 0x682f3c21     ; h/<!
-  push dword 0x64334e77     ; olle
-  push dword 0x503e3168     ; H>1h
-  push dword 0x3c0a0d0a     ; <[\n][\r][\n]
+  push dword 0x6f6c6c65     ; ello
+  push dword 0x683e3148     ; H<1h
+  push dword 0x3c0a0d0a     ; >[\n][\r][\n]
   push dword 0x0d6c6d74     ; [\r]lmt
   push dword 0x682f7478     ; h/tx
   push dword 0x6574203a     ; et :
