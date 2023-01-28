@@ -1,3 +1,10 @@
+
+# This no longer works on 64bit
+
+Compiling this code and making it runnable was only possible on 32bit
+
+The 64bit wrappers in ld bloat it to approx 4k
+
 # smallest-docker-httpd
 
 A challenge from /r/docker on reddit
